@@ -1,0 +1,186 @@
+body, h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+}
+
+body {
+	background-color: #ccc;
+	font-family: 'Lato', sans-serif;
+	letter-spacing: 0.03em;
+}
+
+a {
+	text-decoration: none;
+}
+
+h3 {
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #262626;
+	margin-bottom: 20px;
+}
+
+h4 {
+	font-size: 12px;
+}
+
+h5 {
+}
+
+/*NAVIGATION*/
+.wrapper {
+	width: 1060px;
+	margin: 0 auto;
+}
+
+nav {
+	background-color: #2b2b2b;
+	position: fixed;
+	width: 100%;
+	top: 0;
+}
+
+.logo, .menu-main {
+	float: left;
+}
+
+.menu-main a {
+	display: inline-block;
+	color: #c8c8c8;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding: 18px 20px 0;
+}
+
+.menu-main a:hover {
+	color: white;
+} 
+
+.menu-main a:last-child {
+	color: plum;
+}
+
+.menu-main a:last-child:hover {
+	color: lavender;
+}
+
+.menu-search {
+	float: right;
+}
+
+.menu-search img {
+	padding: 18px 10px 0;
+}
+
+main {
+	margin-top: 74px; 
+}
+
+/*BANNER*/
+.banner {
+	width: 1060px;
+	height: 80px;
+	background-image: url(http://images-1.gog.com/7621b039086fe577be7fe4bc693b8060c0352913a3ddaabb19f3835901b0765d_product_banner_160.jpg);
+}
+
+/*LATEST*/
+.latest {
+	margin-top: 20px;
+}
+
+.whatsnew {
+	/*width: 800px;*/
+	/*background-color: white;*/
+	float: left;
+}
+
+.whatsnew-box {
+	width: 800px;
+	height: 370px;
+	background-color: blue;
+}
+
+.latestdeals {
+	/*width: 240px;*/
+	/*background-color: white;*/
+	float: right;
+}
+
+.latestdeals-box {
+	width: 240px;
+	height: 370px;
+	background-color: blue;
+}
+
+.non-featured {
+	display: grid;
+	grid-template-columns: repeat(5, 196px);
+	grid-column-gap: 20px;
+	float: left;
+	margin-top: 20px;
+}
+
+a.smallbox {
+	color: #262626;
+}
+
+.smallbox {
+	background-color: #e1e1e1;
+}
+
+.non-featured-desc {
+	padding: 5px 10px;
+}
+
+/*HIGHLIGHTS*/
+.highlights {
+	display: grid;
+	grid-template-columns: repeat(2, 510px);
+	grid-column-gap: 40px;
+	float: left;
+	margin-top: 20px;
+}
+
+.columns {
+	background-color: white;
+}
+
+.benefits {
+	background-color: red;
+}
+
+.benefitpoints {
+	margin-top: 20px;
+	display: grid;
+	grid-template-columns: repeat(3, 170px);
+	text-align: center;
+}
+
+.benefitpoints a {
+	background-color: lightslategray;
+}
+
+.benefitpoints a:nth-child(2) {
+	border-left: 1px solid dimgray;
+	border-right: 1px solid dimgray;
+}
+
+/*FOOTER*/
+footer {
+	background-color: #262626;
+	float: left;
+	width: 100%;
+}
+
+footer h3 {
+	color: #e1e1e1;
+}
+
+.sitemap {
+	display: grid;
+	grid-template-columns: repeat(5, 212px);
+}
+
+.sitemapcolumn {
+	background-color: white;
+}
