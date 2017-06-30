@@ -10,6 +10,7 @@ body {
 
 a {
 	text-decoration: none;
+	color: #e1e1e1;
 }
 
 h3 {
@@ -24,6 +25,13 @@ h4 {
 }
 
 h5 {
+	font-size: 12px;
+}
+
+p {
+	font-size: 10px;
+	line-height: 2em;
+	color: #c8c8c8;
 }
 
 /*NAVIGATION*/
@@ -145,10 +153,7 @@ a.smallbox {
 	background-color: white;
 }
 
-.benefits {
-	background-color: red;
-}
-
+/*HIGHLIGHTS-BENEFITS*/
 .benefitpoints {
 	margin-top: 20px;
 	display: grid;
@@ -158,11 +163,36 @@ a.smallbox {
 
 .benefitpoints a {
 	background-color: lightslategray;
+	padding: 10px;
 }
 
 .benefitpoints a:nth-child(2) {
 	border-left: 1px solid dimgray;
 	border-right: 1px solid dimgray;
+}
+
+.benefitpoints img {
+	margin: 10px;
+}
+
+/*HIGHLIGHTS-HEADLINES*/
+.headlines h3 {
+	margin-top: 20px;
+}
+
+.headlinenews {
+	margin-top: 20px;
+	display: grid;
+	grid-template-rows: repeat(11, 121px);
+}
+
+.headlinenews a {
+	background-color: #e1e1e1;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.headlinetext {
+	background-color: white;
 }
 
 /*FOOTER*/
@@ -174,13 +204,42 @@ footer {
 
 footer h3 {
 	color: #e1e1e1;
+	display: inline;
+	font-size: 12px;
+	line-height: 3em;
+}
+
+footer p {
+	font-size: 10px;
+	line-height: 2em;
+	color: #c8c8c8;
+}
+
+.firstline {
+	
+	border-bottom: 1px solid rgba(100, 100, 100, 0.6);
+}
+
+.content {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 0;
+}
+
+.customerservice a:nth-child(n+2), .languagecurrency h3 {
+	padding: 0 10px;
+}
+
+.secondline {
+	padding: 20px 0;
 }
 
 .sitemap {
 	display: grid;
-	grid-template-columns: repeat(5, 212px);
+	grid-template-columns: repeat(5, 192px);
+	grid-column-gap: 20px;
 }
 
 .sitemapcolumn {
-	background-color: white;
+
 }
