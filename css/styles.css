@@ -26,6 +26,7 @@ h4 {
 
 h5 {
 	font-size: 12px;
+	font-weight: normal;
 }
 
 p {
@@ -146,7 +147,7 @@ a.smallbox {
 	grid-template-columns: repeat(2, 510px);
 	grid-column-gap: 40px;
 	float: left;
-	margin-top: 20px;
+	margin: 20px 0 60px;
 }
 
 .columns {
@@ -191,8 +192,18 @@ a.smallbox {
 	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
+.headlinenews img {
+	float: left;
+}
+
 .headlinetext {
-	background-color: white;
+	float: left;
+	color: #262626;
+	padding: 15px 10px;
+}
+
+.headlinetext p {
+	color: #262626;
 }
 
 /*FOOTER*/
