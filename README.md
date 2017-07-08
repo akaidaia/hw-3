@@ -1,2 +1,2 @@
 # hw-3
-Replicate gog.com homepage
+Replicate https://www.gog.com/ homepage
